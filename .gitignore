@@ -1,3 +1,10 @@
 # You can download the pdf from the link in the jupyter notebook
 /datasets/Paixao-164/helper-scripts/Paixão et al. - 2012 - Prediction of the human oral bioavailability by us.pdf
 
+
+# ChEMBL rule of five compound download (>100 MB, see tsne.ipynb for how to download it)
+datasets/ChEMBL-Ro5/
+
+# IDE and OS files
+.idea/
+.DS_Store

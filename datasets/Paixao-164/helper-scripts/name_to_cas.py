@@ -4,7 +4,7 @@ Add CAS numbers to table2.csv by resolving drug names online.
 
 Usage:
     pip install requests pandas
-    python name_to_cas.py table2.csv table2_with_cas.csv
+    python name_to_cas.py table2.csv ../table2_with_cas.csv
 
 Strategy (per drug):
   1. PubChem PUG-REST: name -> CID -> synonym list -> keep strings shaped like a CAS RN
@@ -26,7 +26,7 @@ import pandas as pd
 import requests
 
 IN = sys.argv[1] if len(sys.argv) > 1 else "table2.csv"
-OUT = sys.argv[2] if len(sys.argv) > 2 else "table2_with_cas.csv"
+OUT = sys.argv[2] if len(sys.argv) > 2 else "../table2_with_cas.csv"
 
 PUBCHEM = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound"
 SESSION = requests.Session()
