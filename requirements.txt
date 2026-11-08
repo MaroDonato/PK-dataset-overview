@@ -1,0 +1,18 @@
+# Core (overview.ipynb)
+numpy<2.4
+pandas<3
+matplotlib
+upsetplot
+openpyxl
+xlrd
+# t-SNE (tsne.ipynb)
+chemplot
+rdkit
+scikit-learn
+seaborn
+requests
+cirpy
+tqdm
+python-dotenv
+# Only for re-fetching the ChEMBL assay IDs
+chembl_webresource_client
