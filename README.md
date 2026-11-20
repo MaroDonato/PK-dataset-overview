@@ -1,4 +1,4 @@
-# Literature thesis: human pharmacokinetic databases
+# An overview of human pharmacokinetic databases
 
 Code and data for comparing publicly available human pharmacokinetic (PK) databases:
 
