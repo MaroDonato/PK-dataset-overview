@@ -27,4 +27,5 @@ Overview of chemical space of compounds with bioavailability data vs ChEMBL Ro5 
 | Adachi et al.   | 365  |          | 365   | 365       | 365     | 365  |      |      |      | 365  | 365   |
 | Lombardo et al. | 1315 | 1350     |       |           |         | 920  | 1335 |      |      |      | 1352  |
 | e-Drug3D*       | 1109 | 1080     |       |           |         |      | 1475 | 1262 | 588  |      | 2083  |
+
 *e-Drug3D database contains multiple PK values for the same CAS # for some compounds, leading to a higher total count.
